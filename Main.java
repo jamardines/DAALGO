@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 class Main {
    public static void main(String[] args) {
-      int[] arr = {12, 11, 13, 5, 6, 7};
+      int[] arr = {7, 10, 11, 9, 1};
         System.out.println("Original Array: " + Arrays.toString(arr));
 
         MergeSort(arr, 0, arr.length - 1);
